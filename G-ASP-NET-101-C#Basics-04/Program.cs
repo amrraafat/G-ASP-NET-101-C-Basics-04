@@ -187,6 +187,18 @@
             Console.WriteLine(sb.ToString()); // Output: Library - Updated
 
             #endregion
+
+            #region String Question 5
+
+            string title5 = "Clean Code";
+            int pages5 = 464;
+
+            // Build the sentence using the + operator (Concatenation)
+            string result5 = "Book: " + title5 + ", Pages: " + pages5;
+
+            Console.WriteLine(result5); // Output: Book: Clean Code, Pages: 464
+
+            #endregion
         }
     }
 }
