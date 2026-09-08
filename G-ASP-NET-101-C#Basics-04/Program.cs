@@ -150,6 +150,18 @@
             Console.WriteLine(upperTitle); // Output: CLEAN CODE
 
             #endregion
+
+            #region String Question 2
+
+            string title1 = "Clean Code";
+            string title2 = "Clean Code";
+
+            // Check if both string variables point to the same object in memory
+            bool isSameReference = object.ReferenceEquals(title1, title2);
+
+            Console.WriteLine(isSameReference); // Output: True (Due to C# String Interning)
+
+            #endregion
         }
     }
 }
