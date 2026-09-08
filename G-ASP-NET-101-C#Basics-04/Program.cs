@@ -42,6 +42,20 @@
 
             #endregion
 
+            #region Question 4
+
+            // Define a method that takes a string parameter and prints it with a label
+            static void PrintBookTitle(string title)
+            {
+                Console.WriteLine("Book title: " + title);
+            }
+
+            // Inside Main method:
+            // Call the method with the text "Clean Code"
+            PrintBookTitle("Clean Code");
+
+            #endregion
+
         }
     }
 }
