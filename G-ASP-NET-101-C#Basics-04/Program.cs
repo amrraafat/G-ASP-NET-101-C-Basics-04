@@ -176,6 +176,17 @@
             Console.WriteLine(sb.ToString()); // Output: Book List - Updated
 
             #endregion
+
+            #region String Question 4
+
+            // Using the same StringBuilder from Question 3
+            // Replace "Book List" with "Library"
+            sb.Replace("Book List", "Library");
+
+            // Print the modified result
+            Console.WriteLine(sb.ToString()); // Output: Library - Updated
+
+            #endregion
         }
     }
 }
