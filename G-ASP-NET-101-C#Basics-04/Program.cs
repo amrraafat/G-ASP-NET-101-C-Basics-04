@@ -56,6 +56,28 @@
 
             #endregion
 
+            #region Question 5
+
+            // Method that receives an integer by value and adds 50 to it
+            static void AddBonusPages(int pages)
+            {
+                pages += 50;
+            }
+
+            // Inside Main method:
+            int pages = 400;
+
+            // Call the method with the 'pages' variable
+            AddBonusPages(pages);
+
+            // Print pages afterward
+            Console.WriteLine(pages);
+            /*
+             * Expected Output: 400
+             * Because 'int' is a Value Type. When passed to a method without 'ref', 
+             */
+
+            #endregion
         }
     }
 }
