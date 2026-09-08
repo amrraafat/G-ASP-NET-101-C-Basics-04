@@ -97,6 +97,26 @@
             Console.WriteLine(Discountprices[0]);
 
             #endregion
+
+            #region Question 7
+
+            // Method that receives an integer by reference using 'ref' and adds 50
+            static void AddBonusPagesByRef(ref int Bonuspages)
+            {
+                Bonuspages += 50;
+            }
+
+            // Inside Main method:
+            int Bonuspages = 400;
+
+            // Call the method using the 'ref' keyword
+            AddBonusPagesByRef(ref Bonuspages);
+
+            // Print pages afterward
+            Console.WriteLine(Bonuspages);
+
+
+            #endregion
         }
     }
 }
