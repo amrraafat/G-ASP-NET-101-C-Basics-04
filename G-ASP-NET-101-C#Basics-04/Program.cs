@@ -78,6 +78,25 @@
              */
 
             #endregion
+
+            #region Question 6
+
+            // Method that receives an array and subtracts 5 from the first item
+            static void ApplyDiscount(double[] Discountprices)
+            {
+                Discountprices[0] -= 5;
+            }
+
+            // Inside Main method:
+            double[] Discountprices = { 25.5, 40.0 };
+
+            // Call the method with the 'prices' array
+            ApplyDiscount(Discountprices);
+
+            // Print the first price afterward
+            Console.WriteLine(Discountprices[0]);
+
+            #endregion
         }
     }
 }
