@@ -137,6 +137,19 @@
             Console.WriteLine(ReplaceArrayprices.Length);
 
             #endregion
+
+            #region String Question 1
+
+            string title = "clean code";
+
+            // Convert to uppercase and store in a new variable
+            string upperTitle = title.ToUpper();
+
+            // Print both to show that original 'title' did not change (Strings are immutable)
+            Console.WriteLine(title);      // Output: clean code
+            Console.WriteLine(upperTitle); // Output: CLEAN CODE
+
+            #endregion
         }
     }
 }
