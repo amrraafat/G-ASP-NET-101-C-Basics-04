@@ -162,6 +162,20 @@
             Console.WriteLine(isSameReference); // Output: True (Due to C# String Interning)
 
             #endregion
+
+            #region String Question 3
+
+            // Create a StringBuilder object
+            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+
+            // Append text to the same object
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+
+            // Print the final result
+            Console.WriteLine(sb.ToString()); // Output: Book List - Updated
+
+            #endregion
         }
     }
 }
