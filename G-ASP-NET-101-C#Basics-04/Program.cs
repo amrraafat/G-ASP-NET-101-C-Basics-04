@@ -117,6 +117,26 @@
 
 
             #endregion
+
+            #region Question 8
+
+            // Method that completely replaces an array using 'ref'
+            static void ReplaceArray(ref double[] ReplaceArrayprices)
+            {
+                // Create a new array and assign it to the 'prices' reference
+                ReplaceArrayprices = new double[] { 10.0, 12.5, 15.0 };
+            }
+
+            // Inside Main method:
+            double[] ReplaceArrayprices = { 25.5, 40.0 };
+
+            // Call the method using the 'ref' keyword
+            ReplaceArray(ref ReplaceArrayprices);
+
+            // Print the length of the new array
+            Console.WriteLine(ReplaceArrayprices.Length);
+
+            #endregion
         }
     }
 }
