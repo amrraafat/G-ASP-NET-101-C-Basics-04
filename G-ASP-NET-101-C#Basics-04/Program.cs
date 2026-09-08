@@ -14,6 +14,19 @@
             Console.WriteLine(prices[1]);
 
             #endregion
+
+            #region Question 2
+
+            // Create a 2x2 multidimensional array with rows for shelf 0 and shelf 1
+            int[,] shelfCopies = {
+              { 3, 5 }, // shelf 0
+              { 1, 4 }  // shelf 1
+               };
+
+            // Print the number of copies on shelf 1, slot 0
+            Console.WriteLine(shelfCopies[1, 0]);
+
+            #endregion
         }
     }
 }
