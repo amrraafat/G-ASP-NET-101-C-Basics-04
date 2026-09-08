@@ -211,6 +211,18 @@
             Console.WriteLine(result6); // Output: Book: Clean Code, Pages: 464
 
             #endregion
+
+            #region String Question 7
+
+            string title7 = "Clean Code";
+            int pages7 = 464;
+
+            // Build the sentence using string.Format()
+            string result7 = string.Format("Book: {0}, Pages: {1}", title7, pages7);
+
+            Console.WriteLine(result7); // Output: Book: Clean Code, Pages: 464
+
+            #endregion
         }
     }
 }
