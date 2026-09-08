@@ -199,6 +199,18 @@
             Console.WriteLine(result5); // Output: Book: Clean Code, Pages: 464
 
             #endregion
+
+            #region String Question 6
+
+            string title6 = "Clean Code";
+            int pages6 = 464;
+
+            // Build the sentence using String Interpolation ($)
+            string result6 = $"Book: {title6}, Pages: {pages6}";
+
+            Console.WriteLine(result6); // Output: Book: Clean Code, Pages: 464
+
+            #endregion
         }
     }
 }
